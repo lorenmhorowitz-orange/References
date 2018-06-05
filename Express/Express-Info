@@ -1,1 +1,3 @@
-
+Initial setup information:
+  1. Install express via terminal command: "npm install express"
+  2. Enter onto terminal command line: "npm install" to install all dependencies. 
