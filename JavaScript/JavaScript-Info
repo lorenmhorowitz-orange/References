@@ -1,1 +1,9 @@
 
+Common methods:
+  Output:
+    1. document.write("string");
+    2. console.log("string");
+    3. alert("string");
+   
+   Input:
+    1. var name = prompt('What is your name');
