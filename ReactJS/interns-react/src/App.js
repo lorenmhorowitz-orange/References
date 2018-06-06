@@ -8,11 +8,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">2018 Summer Intern React Test Bed</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+        <p>
+          The interns for 2018 are:
         </p>
+        <li>Loren Horowitz</li>
+        <li>Jason Willmore</li>
+        <li>Riki Montgomery</li>
+        <li>Sean Paterson</li>
+          
       </div>
     );
   }
