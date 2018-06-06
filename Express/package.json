@@ -1,0 +1,13 @@
+{
+    "name": "express-interns",
+    "version": "0.1.0",
+    "description": "Express practice.",
+    "main": "app.js",
+    "scripts": {
+        "lynt": "lynt"
+    },
+    "dependencies": {
+        "express": "^4.16.3",
+        "lynt": "^0.2.0"
+    }
+}

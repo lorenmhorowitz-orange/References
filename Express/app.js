@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
+const { getElementById, getIndexById, updateElement,
+    createElement } = require('./utils');
+
 // Set your desired listening port number.
 const PORT = 4001;
 
