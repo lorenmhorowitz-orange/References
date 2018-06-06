@@ -55,9 +55,9 @@ app.get('/interns', (request, result, next) => {
 app.get('/interns/:id', (request, result, next) => {
     const intern = getElementById(request.params.id, interns);
     if (intern) {
-        res.send(intern);
+        result.send(intern);
     } else {
-        res.status(404).send();
+        result.status(404).send();
     }
 });
 

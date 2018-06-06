@@ -1,7 +1,6 @@
-const express = require('express');
 
-const getElementById = (id, array) => {
-    for (const i = 0; i < array.length; i++) {
+export const getElementById = (id, array) => {
+    for (let i = 0; i < array.length; i++) {
         if (array[i].id === id) {
             return array[i];
         }
@@ -9,8 +8,8 @@ const getElementById = (id, array) => {
     return -1;
 };
 
-const getIndexById = (id, array) => {
-    for (const i = 0; i < array.length; i++) {
+export const getIndexById = (id, array) => {
+    for (let i = 0; i < array.length; i++) {
         if (array[i].id === id) {
             return i;
         }
@@ -18,7 +17,7 @@ const getIndexById = (id, array) => {
     return -1;
 };
 
-const updateElement = (id, query, array) => {
+export const updateElement = (id, query, array) => {
     // Only applicable to intern objects.
     const arrayIndex = getIndexById(id, array);
     if (arrayIndex !== -1) {
@@ -32,7 +31,7 @@ const updateElement = (id, query, array) => {
     }
 };
 
-const createElement = (array, query) => {
+export const createElement = (array, query) => {
     const newIntern = {
         id:     query.id,
         name:   query.name,
