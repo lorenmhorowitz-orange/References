@@ -1,1 +1,12 @@
 
+
+
+create-react-app (used to quickly create react app without configuration):
+    To create an app:
+        Enter "npx create-react-app <my-app-name>" into the command line from desired directory.
+        This will create the structure for the app with all necessary files in current directory.
+    
+    Main Commands:
+        "npm start" - Runs the app in development mode.
+        "npm test" - Runs the test watcher in interactive mode.
+        "npm run build" - builds the app for production in the build folder.
