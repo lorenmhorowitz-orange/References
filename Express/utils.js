@@ -18,17 +18,26 @@ const getIndexById = (id, array) => {
     return -1;
 };
 
-const updateElement = (id, object, array) => {
-    // NEEDS WORK
+const updateElement = (id, query, array) => {
+    // Only applicable to intern objects.
     const arrayIndex = getIndexById(id, array);
     if (arrayIndex !== -1) {
-        array[arrayIndex] = object;
+        array[arrayIndex].name = query.name;
+        array[arrayIndex].id = id;
+        array[arrayIndex].age = query.age;
+        array[arrayIndex].title = query.title;
         return array[arrayIndex];
     } else {
         return -1;
     }
 };
 
-const createElement = (array, object) => {
-    // NEEDS WORK
+const createElement = (array, query) => {
+    const newIntern = {
+        id:     query.id,
+        name:   query.name,
+        age:    query.age,
+        title:  query.title
+    };
+    return newIntern;
 };
