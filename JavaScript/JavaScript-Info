@@ -7,3 +7,7 @@ Common methods:
    
    Input:
     1. var name = prompt('What is your name');
+    
+   Element Access:
+    1. document.getElementById('idName');
+    2. document.getElementsByTagName('p');
