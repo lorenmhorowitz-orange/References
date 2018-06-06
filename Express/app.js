@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 
 // Set your desired listening port number.
-const PORT = process.eng.PORT || 4001;
+const PORT = 4001;
 
 // Acts as a static server.
 app.use(express.static('public'));
