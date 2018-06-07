@@ -11,3 +11,8 @@ Common methods:
    Element Access:
     1. document.getElementById('idName');
     2. document.getElementsByTagName('p');
+    3. document.querySelector('li'); - Gets the first list item from the document.
+    4. document.querySelectorAll('li'); - Returns an HTML collection of all list items.
+      -> Can use '#<id name>' instead of 'li' to select a specific id.
+      -> Can use '.<class name>' to return an HTML collection of just those class items.
+      -> Can use '[<attributeName>=<attributeValue>]' to select only certain attributes.
